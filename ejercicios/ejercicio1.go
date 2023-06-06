@@ -9,5 +9,8 @@ type Actividad struct {
 // Selector de actividades recursivo
 // Reescribir la función que resuelve el problema de seleccionar actividades en forma recursiva
 func SelectorRecursivo(actividades []Actividad) []Actividad {
-	panic("No implementado")
+	if len(actividades) <= 1 {
+		return actividades
+	}
+	panic("not implemented")
 }

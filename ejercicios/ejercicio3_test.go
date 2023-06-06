@@ -15,10 +15,11 @@ func contains(seleccionados map[Objeto]float32, objeto string, valor float32) bo
 }
 func TestEjercicio3(t *testing.T) {
 	objetos := []Objeto{
-		{"o1", 6, 20},
-		{"o2", 3, 18},
-		{"o3", 2, 14},
-		{"o4", 5, 25},
+		// peso, valor
+		{"o1", 6, 20}, //3,33 valor/p
+		{"o2", 3, 18}, //6 valor / p
+		{"o3", 2, 14}, //7 valor/p
+		{"o4", 5, 25}, //5 valor/p
 	}
 	capacidadMochila := 7
 	salida := Ejercicio3(objetos, capacidadMochila)
